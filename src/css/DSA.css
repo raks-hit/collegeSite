@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.pl{
+    font-size: 4em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 20, 27);
+    /* margin-top: -.5em; */
+    margin: 0em;
+
+
+}
+#backto{
+    background-color:rgb(8, 20, 27) ;
+    color: white;
+    float: right;
+    cursor: pointer;
+    
+}
+.dsasheet{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 2em;
+}
