@@ -5,7 +5,7 @@
     text-align: center;
     color: white;
     background-color: rgb(8, 20, 27);
-    /* margin-top: -.5em; */
+ 
     margin: 0em;
 
 
@@ -42,7 +42,7 @@
 }
 .pl1 li a{
 font-size: 2em;
-/* text-decoration: none; */
+
 }
 .pl1 img{
     height: 4em;

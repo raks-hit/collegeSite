@@ -5,7 +5,7 @@ export default function Home() {
 
     const burger=()=>{
         var a=document.querySelector('.cross')
-        // var y=document.querySelectorAll('.line');
+      
         var x = document.getElementById("ul");
         var z=document.querySelector('.burger');
         var dlogo=document.querySelector('#dlogo')
@@ -78,9 +78,9 @@ pre.style.display="none";
               </div>
 
               <div id="onimg">
-                  {/* <div><h1 id="h1">Hi,Everyone</h1> </div> */}
+                 
                   <div><h1 id="h1">Let's Crack it Together.....</h1></div>
-                  {/* <button id="start">Start</button> */}
+                 
                   
                   <pre id='pre'>
                   <div> while(noSuccess)	&#123;</div>
