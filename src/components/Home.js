@@ -5,7 +5,7 @@ export default function Home() {
 
     const burger=()=>{
         var a=document.querySelector('.cross')
-        var y=document.querySelectorAll('.line');
+        // var y=document.querySelectorAll('.line');
         var x = document.getElementById("ul");
         var z=document.querySelector('.burger');
         var dlogo=document.querySelector('#dlogo')
@@ -57,21 +57,21 @@ pre.style.display="none";
           <header className="navbar ">
 
               <div className="dlogoul">
-                  <img id="dlogo" src="./img/logo2.jpeg" />
+                  <img alt='' id="dlogo" src="./img/logo2.jpeg" />
                   <div className="logoul">
                       <ul id="ul">
 
-                          <img id="logo" src="./img/logo2.jpeg" />
+                          <img alt='' id="logo" src="./img/logo2.jpeg" />
 
                           <li className="list"><a href="/">Home</a></li>
                           <li className="list"><Link  to="/DSA">DSA</Link></li>
                           <li className="list"><a href="https://raks-hit.github.io/a2oj-client/server/">CP</a></li>
-                          <li className="list"><a href="">Free Courses</a></li>
-                          <li className="list"><a href="">Development</a></li>
-                          <li className="list"><a href="">Roadmaps</a></li>
-                          <li className="list"><a href="">Blogs</a></li>
-                          <li className="list"><a href="">Updates</a></li>
-                          <li className="list"><a href="">College-Study-Material</a> </li>
+                          <li className="list"><a href="/">Free Courses</a></li>
+                          <li className="list"><a href="/">Development</a></li>
+                          <li className="list"><a href="/">Roadmaps</a></li>
+                          <li className="list"><a href="/">Blogs</a></li>
+                          <li className="list"><a href="/">Updates</a></li>
+                          <li className="list"><a href="/">College-Study-Material</a> </li>
 
                       </ul>
                   </div>
@@ -125,7 +125,7 @@ pre.style.display="none";
 
               <div className="dream">
                   <h1 id="hd">Our Aim:</h1>
-                  <img id="maang" src="./img/faang1.jpg" />
+                  <img alt='' id="maang" src="./img/faang1.jpg" />
               </div>
 
 
@@ -138,22 +138,22 @@ pre.style.display="none";
                   <ul id="ut">
 
                       <li className="tags"><a href="/PL">Programming Langauges</a></li>
-                      <li className="tags"><img className="icon" src="./img/black-plane.png" /></li>
+                      <li className="tags"><img alt='' className="icon" src="./img/black-plane.png" /></li>
                       <li className="tags"><a href="./components/dsa.html">Data Structures</a></li>
-                      <li className="tags"> <img className="icon" src="./img/black-plane.png" /></li>
+                      <li className="tags"> <img alt='' className="icon" src="./img/black-plane.png" /></li>
                       <li className="tags"><a href="https://raks-hit.github.io/a2oj-client/server/">Competitive programming</a></li>
-                      <li className="tags"><img className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a id="development" onClick={dev}>Development</a></li>
+                      <li className="tags"><img alt='' className="icon" src="./img/black-plane.png" /></li>
+                      <li className="tags"><a href='/' id="development" onClick={dev}>Development</a></li>
                       <li><div id="dev">
-                          <a href="">Web development</a>
-                          <a href="">App development</a>
-                          <a href="">Machine learning and AI</a>
-                          <a href="">Blockchain </a>
+                          <a href="/">Web development</a>
+                          <a href="/">App development</a>
+                          <a href="/">Machine learning and AI</a>
+                          <a href="/">Blockchain </a>
                       </div></li>
-                      <li className="tags"><img className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a href="">Competitive Exams</a></li>
-                      <li className="tags"> <img className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a href="">College-Study-Material</a> </li>
+                      <li className="tags"><img alt='' className="icon" src="./img/black-plane.png" /></li>
+                      <li className="tags"><a href="/">Competitive Exams</a></li>
+                      <li className="tags"> <img alt='' className="icon" src="./img/black-plane.png" /></li>
+                      <li className="tags"><a href="/">College-Study-Material</a> </li>
 
 
                   </ul>

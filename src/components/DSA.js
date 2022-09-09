@@ -9,9 +9,9 @@ export default function DSA() {
      <p>Resources</p>
      <div class="dsasheet">
          <p>DSA Sheets-</p>
-         <a href="">Love Babbar DSA sheet</a>
-         <a href="">Aman Dhattarwal DSA sheet</a>
-         <a href="" >Fraz DSA sheet</a>
+         <a href="/">Love Babbar DSA sheet</a>
+         <a href="/">Aman Dhattarwal DSA sheet</a>
+         <a href="/" >Fraz DSA sheet</a>
      </div>
     </div>
   )
