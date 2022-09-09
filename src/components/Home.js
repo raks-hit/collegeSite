@@ -63,15 +63,15 @@ pre.style.display="none";
 
                           <img alt='' id="logo" src="./img/logo2.jpeg" />
 
-                          <li className="list"><a href="/">Home</a></li>
+                          <li className="list"><Link to="/">Home</Link></li>
                           <li className="list"><Link  to="/DSA">DSA</Link></li>
                           <li className="list"><a href="https://raks-hit.github.io/a2oj-client/server/">CP</a></li>
-                          <li className="list"><a href="/">Free Courses</a></li>
-                          <li className="list"><a href="/">Development</a></li>
-                          <li className="list"><a href="/">Roadmaps</a></li>
-                          <li className="list"><a href="/">Blogs</a></li>
-                          <li className="list"><a href="/">Updates</a></li>
-                          <li className="list"><a href="/">College-Study-Material</a> </li>
+                          <li className="list"><Link to="/">Free Courses</Link></li>
+                          <li className="list"><Link to="/">Development</Link></li>
+                          <li className="list"><Link to="/">Roadmaps</Link></li>
+                          <li className="list"><Link to="/">Blogs</Link></li>
+                          <li className="list"><Link to="/">Updates</Link></li>
+                          <li className="list"><Link to="/">College-Study-Material</Link> </li>
 
                       </ul>
                   </div>
@@ -137,23 +137,23 @@ pre.style.display="none";
 
                   <ul id="ut">
 
-                      <li className="tags"><a href="/PL">Programming Langauges</a></li>
+                      <li className="tags"><Link to="/PL">Programming Langauges</Link></li>
                       <li className="tags"><img alt='' className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a href="./components/dsa.html">Data Structures</a></li>
+                      <li className="tags"><Link to="./components/dsa.html">Data Structures</Link></li>
                       <li className="tags"> <img alt='' className="icon" src="./img/black-plane.png" /></li>
                       <li className="tags"><a href="https://raks-hit.github.io/a2oj-client/server/">Competitive programming</a></li>
                       <li className="tags"><img alt='' className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a href='/' id="development" onClick={dev}>Development</a></li>
+                      <li className="tags"><Link to='/' id="development" onClick={dev}>Development</Link></li>
                       <li><div id="dev">
-                          <a href="/">Web development</a>
-                          <a href="/">App development</a>
-                          <a href="/">Machine learning and AI</a>
-                          <a href="/">Blockchain </a>
+                          <Link to="/">Web development</Link>
+                          <Link to="/">App development</Link>
+                          <Link to="/">Machine learning and AI</Link>
+                          <Link to="/">Blockchain </Link>
                       </div></li>
                       <li className="tags"><img alt='' className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a href="/">Competitive Exams</a></li>
+                      <li className="tags"><Link to="/">Competitive Exams</Link></li>
                       <li className="tags"> <img alt='' className="icon" src="./img/black-plane.png" /></li>
-                      <li className="tags"><a href="/">College-Study-Material</a> </li>
+                      <li className="tags"><Link to="/">College-Study-Material</Link> </li>
 
 
                   </ul>
@@ -260,7 +260,7 @@ pre.style.display="none";
               <div className="email">
                   <h2>Email us at:</h2>
 
-                  <a href="mailto:coursetechofficial@gmail.com">coursetechofficial@gmail.com</a>
+                  <Link to="mailto:coursetechofficial@gmail.com">coursetechofficial@gmail.com</Link>
               </div>
           </div>
   </div>
